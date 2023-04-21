@@ -126,7 +126,7 @@ main {
     color: white;
 }
 
-@media(max-width:424px){
+@media(max-width:450px){
     fieldset {
         width: 300px;
     }
