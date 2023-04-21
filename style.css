@@ -125,3 +125,9 @@ main {
 .input {
     color: white;
 }
+
+@media(max-width:424px){
+    fieldset {
+        width: 300px;
+    }
+}
