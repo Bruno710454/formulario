@@ -1,0 +1,127 @@
+* {
+    margin: auto;
+    padding: 0;
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right , rgb(0, 100, 100), rgb(92, 158, 158));
+}
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 450px;
+    border-radius: 8px;
+    width: 350px;
+}
+
+.form {
+    background-color: rgb(48, 48, 48);
+    padding: 20px;
+    color:white;
+    border-radius: 10px;
+}
+
+fieldset > div {
+    width: 80%;
+    position: relative;
+
+
+}
+
+#nome {
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    height: 20px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-color: white;
+    outline: none;
+}
+
+#sobrenome {
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    height: 20px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-color: white;
+    outline: none;
+}
+
+#sexo {
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    height: 20px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-color: white;
+    outline: none;
+}
+
+#nasc {
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    height: 20px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-color: white;
+    outline: none;
+}
+
+legend {
+    background-image: linear-gradient(to right , rgb(0, 100, 100), rgb(44, 141, 141));
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+legend:hover {
+    background-color: burlywood;
+}
+
+.btn2 {
+    background-image: linear-gradient(to left , rgb(0, 100, 100), rgb(44, 141, 141));
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border-width: 0;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    transition: 10ms;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn2:hover {
+    background-image: linear-gradient(to right , rgb(0, 100, 100), rgb(44, 141, 141));
+}
+
+main {
+    display: flex;
+    background-color: burlywood;
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+}
+
+.input {
+    color: white;
+}
